@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashlok Jha | Portfolio</title>
+  <meta name="description" content="Portfolio of Ashlok Jha, B.Tech CSE (AI & ML) student building web projects.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav" data-bs-offset="90">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg fixed-top" id="header">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#home">Ashlok<span class="accent">.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Toggle navigation">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        <li class="nav-item ms-lg-2">
+          <button id="themeToggle" class="btn btn-sm theme-btn" aria-label="Toggle dark/light mode"><i class="bi bi-sun-fill"></i></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 order-2 order-lg-1" data-reveal>
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 class="display-3 fw-bold mb-2">Ashlok Jha</h1>
+        <h2 class="h4 mb-3">I'm into <span id="typed" class="accent"></span><span class="cursor">|</span></h2>
+        <p class="lead text-muted-2 mb-4">Second-year B.Tech CSE (AI &amp; ML) student who loves turning ideas into clean, responsive web experiences and learning how intelligent systems work.</p>
+        <div class="d-flex flex-wrap gap-3 mb-4">
+          <a href="#projects" class="btn btn-accent btn-lg">View My Work</a>
+          <a href="#contact" class="btn btn-outline-accent btn-lg">Contact Me</a>
+        </div>
+        <div class="social d-flex gap-3">
+          <a href="https://github.com/ashlokjha9-sudo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/ashlok-jha-97184b359" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:Ashlokjha9@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2 text-center" data-reveal>
+        <div class="avatar-wrap">
+          <img src="assets/img/profile.jpg" alt="Ashlok Jha" class="avatar-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="avatar-fallback">AJ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="py-6">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>About Me</h2><p>A quick introduction</p></div>
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <p>I'm <strong>Ashlok Jha</strong>, a second-year B.Tech student in Computer Science &amp; Engineering with a specialization in Artificial Intelligence and Machine Learning. I enjoy building things for the web and exploring how data and algorithms can solve real problems.</p>
+        <p>I learn best by building, so I use projects, hackathons and open-source practice to sharpen my skills and understand concepts deeply.</p>
+        <h5 class="mt-4">Career Interests</h5>
+        <p>Web development, AI/ML engineering, data science and software engineering internships.</p>
+        <h5 class="mt-4">Goals</h5>
+        <p>Build a strong portfolio of real-world projects, earn an internship in software or AI, and grow into an engineer who ships useful, well-designed products.</p>
+      </div>
+      <div class="col-lg-5">
+        <ul class="info-list list-unstyled">
+          <li><i class="bi bi-person-badge"></i><span><b>Name:</b> Ashlok Jha</span></li>
+          <li><i class="bi bi-hash"></i><span><b>PRN:</b> 250105231760</span></li>
+          <li><i class="bi bi-mortarboard"></i><span><b>Degree:</b> B.Tech CSE (AI &amp; ML)</span></li>
+          <li><i class="bi bi-calendar3"></i><span><b>Year:</b> Second Year</span></li>
+          <li><i class="bi bi-envelope"></i><span><b>Email:</b> Ashlokjha9@gmail.com</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="py-6 alt-bg">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Skills</h2><p>Technologies I work with. Edit the percentages to match your level.</p></div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <h5 class="mb-3">Programming &amp; Web</h5>
+        <div class="skill"><div class="d-flex justify-content-between"><span>Python</span><span>70%</span></div><div class="bar"><div data-w="70"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>C / C++</span><span>65%</span></div><div class="bar"><div data-w="65"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>HTML &amp; CSS</span><span>80%</span></div><div class="bar"><div data-w="80"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>JavaScript</span><span>60%</span></div><div class="bar"><div data-w="60"></div></div></div>
+      </div>
+      <div class="col-md-6">
+        <h5 class="mb-3">Frameworks, Database &amp; Tools</h5>
+        <div class="skill"><div class="d-flex justify-content-between"><span>Bootstrap</span><span>75%</span></div><div class="bar"><div data-w="75"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>SQL / MySQL</span><span>60%</span></div><div class="bar"><div data-w="60"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>Git &amp; GitHub</span><span>70%</span></div><div class="bar"><div data-w="70"></div></div></div>
+        <div class="skill"><div class="d-flex justify-content-between"><span>NumPy / Pandas</span><span>55%</span></div><div class="bar"><div data-w="55"></div></div></div>
+      </div>
+    </div>
+    <div class="d-flex flex-wrap gap-2 mt-4">
+      <span class="chip">VS Code</span><span class="chip">Vercel</span><span class="chip">Jupyter Notebook</span><span class="chip">Scikit-learn</span><span class="chip">Figma</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-6">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Projects</h2><p>Things I've built. Replace these placeholders with your real projects.</p></div>
+    <div class="d-flex justify-content-center flex-wrap gap-2 mb-4" id="filters">
+      <button class="btn btn-sm filter active" data-f="all">All</button>
+      <button class="btn btn-sm filter" data-f="web">Web</button>
+      <button class="btn btn-sm filter" data-f="ml">AI / ML</button>
+    </div>
+    <div class="row g-4" id="projectGrid">
+
+      <div class="col-md-6 col-lg-4 project" data-cat="web">
+        <div class="card-x h-100">
+          <div class="shot"><img src="assets/img/project1.png" alt="Project 1 screenshot" onerror="this.remove()"><i class="bi bi-window"></i></div>
+          <div class="p-4">
+            <h5>Project One Title</h5>
+            <p class="text-muted-2 small">Short description of what this project does and the problem it solves.</p>
+            <div class="mb-3"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span></div>
+            <a href="https://github.com/ashlokjha9-sudo" target="_blank" rel="noopener" class="btn btn-sm btn-outline-accent me-2"><i class="bi bi-github"></i> Code</a>
+            <a href="#" class="btn btn-sm btn-accent"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project" data-cat="ml">
+        <div class="card-x h-100">
+          <div class="shot"><img src="assets/img/project2.png" alt="Project 2 screenshot" onerror="this.remove()"><i class="bi bi-cpu"></i></div>
+          <div class="p-4">
+            <h5>Project Two Title</h5>
+            <p class="text-muted-2 small">Short description of an ML or data project, the dataset used and the result achieved.</p>
+            <div class="mb-3"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Scikit-learn</span></div>
+            <a href="https://github.com/ashlokjha9-sudo" target="_blank" rel="noopener" class="btn btn-sm btn-outline-accent me-2"><i class="bi bi-github"></i> Code</a>
+            <a href="#" class="btn btn-sm btn-accent"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 project" data-cat="web">
+        <div class="card-x h-100">
+          <div class="shot"><img src="assets/img/project3.png" alt="Project 3 screenshot" onerror="this.remove()"><i class="bi bi-bar-chart-line"></i></div>
+          <div class="p-4">
+            <h5>Project Three Title</h5>
+            <p class="text-muted-2 small">Short description of a third project, such as a dashboard, app or tool.</p>
+            <div class="mb-3"><span class="chip">Bootstrap</span><span class="chip">JavaScript</span><span class="chip">Git</span></div>
+            <a href="https://github.com/ashlokjha9-sudo" target="_blank" rel="noopener" class="btn btn-sm btn-outline-accent me-2"><i class="bi bi-github"></i> Code</a>
+            <a href="#" class="btn btn-sm btn-accent"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education" class="py-6 alt-bg">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Education</h2><p>My academic journey</p></div>
+    <div class="timeline">
+      <div class="t-item">
+        <h5>B.Tech in Computer Science &amp; Engineering (AI &amp; ML)</h5>
+        <p class="accent mb-1">Second Year &middot; PRN 250105231760</p>
+        <p class="text-muted-2 mb-0">Institution: <em>add your college/university name</em> &middot; Academic year: <em>add (e.g. 2025 – 2029)</em></p>
+        <p class="text-muted-2">Coursework: Data Structures, Programming, Mathematics for ML, Databases.</p>
+      </div>
+      <div class="t-item">
+        <h5>Higher Secondary (12th)</h5>
+        <p class="text-muted-2 mb-0"><em>Add school name, board, year and percentage.</em></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="py-6">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Achievements &amp; Certifications</h2><p>Add only what you have actually earned.</p></div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3"><div class="card-x p-4 h-100 text-center"><i class="bi bi-patch-check icon-big"></i><h6 class="mt-3">Certificates</h6><p class="small text-muted-2 mb-0">Add online course certificates (Coursera, NPTEL, etc.).</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-x p-4 h-100 text-center"><i class="bi bi-trophy icon-big"></i><h6 class="mt-3">Competitions</h6><p class="small text-muted-2 mb-0">Add coding contests or academic competitions.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-x p-4 h-100 text-center"><i class="bi bi-lightning-charge icon-big"></i><h6 class="mt-3">Hackathons</h6><p class="small text-muted-2 mb-0">Add hackathons you took part in.</p></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card-x p-4 h-100 text-center"><i class="bi bi-easel icon-big"></i><h6 class="mt-3">Workshops</h6><p class="small text-muted-2 mb-0">Add workshops and seminars attended.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="py-6 alt-bg">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Experience</h2><p>Internships, training and freelance work</p></div>
+    <div class="timeline">
+      <div class="t-item">
+        <h5>Self-Directed Projects &amp; Training</h5>
+        <p class="accent mb-1">2025 – Present</p>
+        <p class="text-muted-2 mb-0">Building web and ML projects, learning through online courses and practising version control with Git and GitHub. Update this with internships or freelance work when you have them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="py-6">
+  <div class="container" data-reveal>
+    <div class="section-title"><h2>Contact Me</h2><p>Let's connect</p></div>
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <ul class="info-list list-unstyled">
+          <li><i class="bi bi-envelope"></i><span><b>Email</b><br><a href="mailto:Ashlokjha9@gmail.com">Ashlokjha9@gmail.com</a></span></li>
+          <li><i class="bi bi-linkedin"></i><span><b>LinkedIn</b><br><a href="https://www.linkedin.com/in/ashlok-jha-97184b359" target="_blank" rel="noopener">linkedin.com/in/ashlok-jha-97184b359</a></span></li>
+          <li><i class="bi bi-github"></i><span><b>GitHub</b><br><a href="https://github.com/ashlokjha9-sudo" target="_blank" rel="noopener">github.com/ashlokjha9-sudo</a></span></li>
+        </ul>
+      </div>
+      <div class="col-lg-7">
+        <form id="contactForm" class="card-x p-4">
+          <div class="row g-3">
+            <div class="col-md-6"><input type="text" class="form-control" id="cName" placeholder="Your name" required></div>
+            <div class="col-md-6"><input type="email" class="form-control" id="cEmail" placeholder="Your email" required></div>
+            <div class="col-12"><input type="text" class="form-control" id="cSubject" placeholder="Subject" required></div>
+            <div class="col-12"><textarea class="form-control" id="cMsg" rows="5" placeholder="Message" required></textarea></div>
+            <div class="col-12"><button type="submit" class="btn btn-accent">Send Message</button></div>
+          </div>
+          <small class="text-muted-2 d-block mt-3">Sending opens your email app with the message prefilled.</small>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-4 text-center alt-bg">
+  <div class="container">
+    <p class="mb-1">&copy; <span id="year"></span> <strong>Ashlok Jha</strong>. All rights reserved.</p>
+    <small class="text-muted-2">B.Tech CSE (AI &amp; ML) &middot; PRN 250105231760</small>
+  </div>
+</footer>
+
+<a href="#home" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
